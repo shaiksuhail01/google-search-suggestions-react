@@ -1,0 +1,25 @@
+.suggestionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 16px;
+}
+.arrowImage {
+  width: 18px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 17px;
+  }
+  .arrowImage {
+    width: 20px;
+  }
+}

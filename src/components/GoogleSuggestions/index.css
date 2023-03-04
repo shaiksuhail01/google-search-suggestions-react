@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.divContainer {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.googleLogo {
+  width: 165px;
+}
+.suggestionsContainer {
+  border-radius: 12px;
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-top: 20px;
+  width: 300px;
+}
+.searchIcon {
+  width: 20px;
+}
+.input {
+  border-width: 0px;
+  outline: none;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 9px;
+  width: 300px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.listContainer {
+  list-style: none;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .googleLogo {
+    width: 300px;
+  }
+  .suggestionsContainer {
+    width: 500px;
+  }
+  .input {
+    width: 500px;
+  }
+}
